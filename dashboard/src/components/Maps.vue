@@ -10,7 +10,7 @@
   
   <script>
   export default {
-    name: 'hello',
+    name: 'Maps',
     data () {
       return {
         msg: 'Google Maps'
@@ -18,9 +18,9 @@
     mounted: function() {
           console.log("map: ", google.maps)
               this.map = new google.maps.Map(document.getElementById('myMap'), {
-              center: {lat:61.180059, lng: -149.822075},
-              scrollwheel: false,
-              zoom: 4
+              center: {lat:43.7101728, lng: 7.2619532},
+              scrollwheel: true,
+              zoom: 10
               })
     }
   
