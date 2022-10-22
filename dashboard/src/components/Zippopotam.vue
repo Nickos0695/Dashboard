@@ -9,7 +9,7 @@
   import axios from 'axios'
   
   export default{
-  name:'Zipopotam',
+  name:'Zippopotam',
     data() {
       return {
         zipo: []
